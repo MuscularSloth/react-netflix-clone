@@ -4,12 +4,12 @@ import "firebase/compat/auth";
 // import { seedDatabase } from "../seed";
 
 const config = {
-	apiKey: "AIzaSyDMvFqo9aLgYnmfiDxylZhU37C7gaXPIX0",
-	authDomain: "nexflix-clone-8ac98.firebaseapp.com",
-	projectId: "nexflix-clone-8ac98",
-	storageBucket: "nexflix-clone-8ac98.appspot.com",
-	messagingSenderId: "761044393544",
-	appId: "1:761044393544:web:64dbef20b1edf19a18c27d",
+	apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
+	authDomain: process.env.REACT_APP_FIREBASE_AUTHDOMAIN,
+	projectId: process.env.REACT_APP_FIREBASE_PROJECTID,
+	storageBucket: process.env.REACT_APP_FIREBASE_STORAGEBUCKET,
+	messagingSenderId: process.env.REACT_APP_FIREBASE_SENDERID,
+	appId: process.env.REACT_APP_FIREBASE_APPID,
 };
 
 const firebase = Firebase.initializeApp(config);
