@@ -1,16 +1,9 @@
-### Netflix clone for practice react skills
+### Netflix clone
 
+#### Stack
 
-#### What I use?
-
+- React
 - React Router
+- Styled Components
 - Firebase
 - Fuse.js
-- Styled Components
-
-
-#### What I want?
-
-- Netflix looks like
-- Auth logic
-- Store logic
